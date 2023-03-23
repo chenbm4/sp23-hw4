@@ -6,7 +6,11 @@
 ```
 # using venv
 python -m venv .venv
-source .venv/bin/activate   # on Windows, run the corresponding script
+source .venv/bin/activate   
+
+# on windows
+python -m venv .venv
+.venv\scripts\activate
 
 # alternatively, using conda
 conda create -n hw4env python=3.9 pip
@@ -26,5 +30,5 @@ poetry install
 ###  Running your implementation
 You may run the main program with
 ```
-python main.py
+poetry run main
 ```

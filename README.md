@@ -30,5 +30,5 @@ poetry install
 ###  Running your implementation
 You may run the main program with
 ```
-poetry run main
+python main.py
 ```
